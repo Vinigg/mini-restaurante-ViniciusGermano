@@ -1,0 +1,24 @@
+/* Centralizar títulos */
+h1, h2, h3 {
+	text-align: center;
+}
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+a {
+	transition: color 0.2s;
+}
+
+/* Exemplo de borda visível em bloco específico */
+.menu-bar {
+	border-bottom: 4px solid #ffe600;
+}
+
+/* Bordas para imagens dos pratos */
+img[alt^="Hambúrguer"],
+img[alt^="Medalhão"],
+img[alt^="Salada"] {
+	border: 5px solid #ffe600;
+	border-radius: 18px;
+}
