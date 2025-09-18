@@ -1,3 +1,7 @@
+/* Instagram amarelo */
+strong.instagram, strong.instagram a {
+	color: #ffe600 !important;
+}
 /* Centralizar títulos */
 h1, h2, h3 {
 	text-align: center;
